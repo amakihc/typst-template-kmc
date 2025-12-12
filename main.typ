@@ -27,7 +27,7 @@ $ <gaussian> // labelの例
 	@gaussian /*refの例*/ において、期待値は $mu$ 、分散は $sigma^2$ である。
 ]
 標準正規分布のグラフは @standard の通り。
-#figure(
+#figure( // figureの例
 	image("img/image.png", width: 100%),
 	caption: [標準正規分布]
 ) <standard>
@@ -45,4 +45,5 @@ $ <gaussian> // labelの例
 $
   a^2 + b^2 = c^2
 $
+
 // ---------- ----------
