@@ -53,7 +53,7 @@
 	show strong: set text(font: (roman, kakugothic, mincho))
 	show emph: set text(font: (roman, mincho))
 
-	set figure(placement: bottom)
+	set figure(placement: bottom) // ここで図表の位置のアルゴリズムを指定できる
 	set figure(numbering: num => {
 		let chapter_num = counter(heading).get().first()
 		if chapter_num == none { chapter_num = 1 }
@@ -160,4 +160,5 @@
 		"(" + letter + "." + str(num) + ")"
 	})
 	body
+
 }
